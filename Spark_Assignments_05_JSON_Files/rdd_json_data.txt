@@ -1,0 +1,16 @@
+RDD- json file  -  1 pd
+
+Consider the following json file 
+{"id": 1,  "fname": "Jeanette",  "lname": "Penddreth",   "gender": "Female"  }
+{"id": 2,  "fname": "Giavani",  "lname": "Frediani",   "gender": "Male"}
+{"id": 3,  "fname": "Noell",  "lname": "Bea",  "gender": "Female"}
+{"id": 4,  "fname": "Willard",  "lname": "Valek",   "gender": "Male"}
+
+1. Create RDD for above json file. 
+2. display the contents in tabular format. 
+3. Apply filter on id , gender to restrict output.
+4. display contents in array format.
+5. classify whole data into 2 files based on gender and save them as json files.
+6. differentiate between show and collect when used with data frames.
+7. sort the given data based out of gender and store in a file. 
+8. convert given json file into a text file. 

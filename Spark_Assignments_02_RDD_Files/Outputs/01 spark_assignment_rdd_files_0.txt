@@ -1,0 +1,11 @@
+C:\Users\dell\PycharmProjects\PySpark\venv\Scripts\python.exe "F:/Spark/Spark_assignments/Spark_Assignments_RDD_Files/01 spark_assignment_rdd_files_0.py"
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+***** ASSIGNMENT – 2 : Working with associative arrays *****
+1. Consider above data:
+a) Output in the form of keypairs using RDD is:  [('Ram', 10), ('sam', 30), ('joe', 40), ('sai', 54), ('Ram', 34), ('sam', 99), ('joe', 50), ('tej', 34), ('Tej', 39), ('sai', 120), ('tej', 45)]
+b) Aggregation of each name is:  [('sai', 174), ('Tej', 39), ('Ram', 44), ('sam', 129), ('joe', 90), ('tej', 79)]
+c) Count of occurrence each name is:  {'Ram': 2, 'sam': 2, 'joe': 2, 'sai': 2, 'tej': 2, 'Tej': 1}
+
+Process finished with exit code 0

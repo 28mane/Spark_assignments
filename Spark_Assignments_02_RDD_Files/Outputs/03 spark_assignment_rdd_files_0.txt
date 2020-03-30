@@ -1,0 +1,14 @@
+C:\Users\dell\PycharmProjects\PySpark\venv\Scripts\python.exe "F:/Spark/Spark_assignments/Spark_Assignments_RDD_Files/03 spark_assignment_rdd_files_0.py"
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+***** ASSIGNMENT – 2 : Working with associative arrays *****
+3. Considering the file sample.txt:
+a) All the tokens in the given text file are: 
+ ['Welcome', 'to', 'spark', 'L2', 'session', 'This', 'is', 'a', 'text', 'file', 'which', 'contains', 'text', 'for', 'the', 'demonstration', 'of', 'text', 'files', 'with', 'spark', 'Spark', 'is', 'from', 'Apache', 'and', 'this', 'is', 'going', 'to', 'be', 'very', 'useful', 'demonstration', 'for', 'all', 'Happy', 'learning', 'with', 'spark', 'to', 'all', 'Bye', 'for', 'now']
+b) All the distinct words in the given text file are: 
+ ['Welcome', 'L2', 'is', 'of', 'files', 'Spark', 'Apache', 'this', 'very', 'useful', 'learning', 'Bye', 'now', 'to', 'spark', 'session', 'This', 'a', 'text', 'file', 'which', 'contains', 'for', 'the', 'demonstration', 'with', 'from', 'and', 'going', 'be', 'all', 'Happy']
+c) Word count of the given text file is:  45 
+   With distinct word count been:  32
+
+Process finished with exit code 0

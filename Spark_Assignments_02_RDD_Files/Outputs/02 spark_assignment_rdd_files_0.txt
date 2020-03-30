@@ -1,0 +1,19 @@
+C:\Users\dell\PycharmProjects\PySpark\venv\Scripts\python.exe "F:/Spark/Spark_assignments/Spark_Assignments_RDD_Files/02 spark_assignment_rdd_files_0.py"
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+***** ASSIGNMENT – 2 : Working with associative arrays *****
+2. Considering the file sample.txt:
+a) Display file using RDD:
+ ['Welcome to spark L2 session. This is a text file which contains text for the demonstration of text files with spark. Spark is from Apache and this is going to be very useful demonstration for all. Happy learning with spark to all. Bye for now.']
+b) First line of 'sample.txt' is: 
+ Welcome to spark L2 session.
+c) First 2 lines of 'sample.txt' are: 
+ Welcome to spark L2 session.
+ This is a text file which contains text for the demonstration of text files with spark.
+d) Number of words in 'sample.txt' is: 
+ 45 
+And there word count is: 
+ [('Welcome', 1), ('L2', 1), ('is', 3), ('of', 1), ('files', 1), ('Spark', 1), ('Apache', 1), ('this', 1), ('very', 1), ('useful', 1), ('learning', 1), ('Bye', 1), ('now', 1), ('to', 3), ('spark', 3), ('session', 1), ('This', 1), ('a', 1), ('text', 3), ('file', 1), ('which', 1), ('contains', 1), ('for', 3), ('the', 1), ('demonstration', 2), ('with', 2), ('from', 1), ('and', 1), ('going', 1), ('be', 1), ('all', 2), ('Happy', 1)]
+
+Process finished with exit code 0

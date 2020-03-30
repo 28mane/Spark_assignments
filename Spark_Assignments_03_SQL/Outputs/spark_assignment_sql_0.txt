@@ -1,0 +1,72 @@
+C:\Users\dell\PycharmProjects\PySpark\venv\Scripts\python.exe C:/Users/dell/PycharmProjects/PySpark/spark_assignment_sql_0/spark_assignment_sql_0.py
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+***** ASSIGNMENT – 3 : Spark SQL using json file *****
+1. From the above json file:
+a) Data using data frame is: 
+
++---+-------+---+
+|age|  ename| id|
++---+-------+---+
+| 29|    Ram|101|
+| 30|    Sai|102|
+| 32|    joe|103|
+| 30| sirish|104|
+| 32|shekhar|105|
++---+-------+---+
+
+b) Structure of the data frame is: 
+
+root
+ |-- age: string (nullable = true)
+ |-- ename: string (nullable = true)
+ |-- id: string (nullable = true)
+
+c) 'enames' from the given file using select: 
+
++-------+
+|  ename|
++-------+
+|    Ram|
+|    Sai|
+|    joe|
+| sirish|
+|shekhar|
++-------+
+
+2. From the above json file:
+a) Count of each age is: 
+
++---+-----+
+|age|count|
++---+-----+
+| 29|    1|
+| 30|    2|
+| 32|    2|
++---+-----+
+
+b) All records in sorted order are: 
+
++---+-------+---+
+|age|  ename| id|
++---+-------+---+
+| 29|    Ram|101|
+| 30| sirish|104|
+| 30|    Sai|102|
+| 32|    joe|103|
+| 32|shekhar|105|
++---+-------+---+
+
+c) Records whose age <=30 are: 
+
++---+------+---+
+|age| ename| id|
++---+------+---+
+| 29|   Ram|101|
+| 30|   Sai|102|
+| 30|sirish|104|
++---+------+---+
+
+
+Process finished with exit code 0

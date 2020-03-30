@@ -1,0 +1,24 @@
+C:\Users\dell\PycharmProjects\PySpark\venv\Scripts\python.exe F:/Spark/Spark_assignments/Spark_Assignments_RDD_Basics/spark_assignment_rdd.py
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+***** ASSIGNMENT – 1 : Creation of  RDD and  operations on RDDs *****
+1. For the given array:
+a) RDD form is:  ParallelCollectionRDD[0] at parallelize at PythonRDD.scala:195 and its type is:  <class 'pyspark.rdd.RDD'>
+b) Display:  [10, 21, 90, 34, 40, 98, 21, 44, 59, 21, 90, 34, 29, 19, 21, 90, 34, 29, 49, 78]
+c) First element is:  10
+2. Considering the given array:
+a) Sorted output, 
+Ascending is:  [10, 19, 21, 21, 21, 21, 29, 29, 34, 34, 34, 40, 44, 49, 59, 78, 90, 90, 90, 98] 
+Descending is:  [98, 90, 90, 90, 78, 59, 49, 44, 40, 34, 34, 34, 29, 29, 21, 21, 21, 21, 19, 10]
+b) Distinct elements using new RDD are:  [40, 44, 21, 29, 49, 10, 90, 34, 98, 78, 59, 19]
+c) Distinct elements without using new RDD are:  [40, 44, 21, 29, 49, 10, 90, 34, 98, 78, 59, 19]
+3. Considering the given array:
+a) Maximum is:  98 
+   Minimum is:  10
+b) Top 5 list elements are:  [98, 90, 90, 90, 78]
+c) Combining it with new array results:  [30, 35, 45, 60, 75, 85, 10, 21, 90, 34, 40, 98, 21, 44, 59, 21, 90, 34, 29, 19, 21, 90, 34, 29, 49, 78]
+d) Sum of elements using reduce is:  911
+e) Sum of distinct elements using reduce is:  571
+                                                                                
+Process finished with exit code 0

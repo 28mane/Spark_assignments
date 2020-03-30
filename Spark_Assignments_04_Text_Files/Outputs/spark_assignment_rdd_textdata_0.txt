@@ -1,0 +1,28 @@
+C:\Users\dell\Anaconda3\python.exe F:/Spark/Spark_assignments/text_files/rdd_textdata_0.py
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+***** ASSIGNMENT – 4 : Spark Text Files and Partitions *****
+1. RDD for above text file with 3 partitions is created successfully.
+
+2. contents of file using RDD is: 
+['India’s football team captain Sunil Chhetri recently took to Twitter pleading fans to support his team in a four-nation tournament held in Mumbai. Virat Kohli, the captain of national cricket team, doesn’t have to issue such appeals as he mostly plays in front of a full house. But football is gaining a following in India, more so after the launch of the professional Indian Super League. Over the next month, cricket will take a backseat as India joins the world in watching the FIFA World Cup.']
+
+3. Individual RDD for first 3 lines is: 
+RDD for line 1 is:  ParallelCollectionRDD[3] at parallelize at PythonRDD.scala:195
+RDD for line 2 is:  ParallelCollectionRDD[4] at parallelize at PythonRDD.scala:195
+RDD for line 3 is:  ParallelCollectionRDD[5] at parallelize at PythonRDD.scala:195
+
+4. Wordcount for each token in the file: 
+[('captain', 2), ('Sunil', 1), ('Chhetri', 1), ('took', 1), ('fans', 1), ('tournament', 1), ('held', 1), ('the', 6), ('of', 3), ('doesn’t', 1), ('have', 1), ('as', 2), ('plays', 1), ('full', 1), ('But', 1), ('gaining', 1), ('India,', 1), ('professional', 1), ('Super', 1), ('will', 1), ('Cup', 1), ('football', 2), ('team', 2), ('recently', 1), ('to', 3), ('pleading', 1), ('support', 1), ('his', 1), ('Kohli,', 1), ('issue', 1), ('appeals', 1), ('is', 1), ('so', 1), ('after', 1), ('launch', 1), ('Indian', 1), ('month,', 1), ('world', 1), ('watching', 1), ('FIFA', 1), ('India’s', 1), ('Twitter', 1), ('in', 5), ('a', 4), ('four-nation', 1), ('Mumbai', 1), ('Virat', 1), ('national', 1), ('cricket', 2), ('team,', 1), ('such', 1), ('he', 1), ('mostly', 1), ('front', 1), ('house', 1), ('following', 1), ('more', 1), ('League', 1), ('Over', 1), ('next', 1), ('take', 1), ('backseat', 1), ('India', 1), ('joins', 1), ('World', 1)]
+And the result is saved under wordcount in Outputs directory
+
+5. map VS flatmap: 
+MAP function result:  [['hadoop', 'is', 'fast'], ['hive', 'is', 'sql', 'on', 'hdfs'], ['spark', 'is', 'superfast'], ['spark', 'is', 'awesome']]
+FLATMAP function result:  ['hadoop', 'is', 'fast', 'hive', 'is', 'sql', 'on', 'hdfs', 'spark', 'is', 'superfast', 'spark', 'is', 'awesome']
+
+6. Data in each partition: 
+["index: 0 values: ['India’s football team captain Sunil Chhetri recently took to Twitter pleading fans to support his team in a four-nation tournament held in Mumbai. Virat Kohli, the captain of national cricket team, doesn’t have to issue such appeals as he mostly plays in front of a full house. But football is gaining a following in India, more so after the launch of the professional Indian Super League. Over the next month, cricket will take a backseat as India joins the world in watching the FIFA World Cup.']", 'index: 1 values: []', 'index: 2 values: []']
+And the result is saved under partitions in Outputs directory
+                                                                                
+Process finished with exit code 0

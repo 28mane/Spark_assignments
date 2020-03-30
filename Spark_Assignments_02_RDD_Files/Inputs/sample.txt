@@ -1,0 +1,1 @@
+Welcome to spark L2 session. This is a text file which contains text for the demonstration of text files with spark. Spark is from Apache and this is going to be very useful demonstration for all. Happy learning with spark to all. Bye for now.

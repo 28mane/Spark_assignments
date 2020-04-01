@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffe27e41-936b-486a-bd94-756059226fec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Spark_assignments.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/grade.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_A/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_B/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grades/Grade_K/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/grade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,21 +45,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="152" column="19" lean-forward="true" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="46" column="119" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="125" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>filter</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/sales.txt" />
+        <option value="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/grade" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/grade.txt" />
+        <option value="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -49,6 +125,11 @@
             <path>
               <item name="Spark_assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spark_assignments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spark_assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark_assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="Spark_Assignments_06_RDD_Basics_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -71,7 +152,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.rdd_basics">
+    <configuration name="rdd_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spark_assignments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="spark_assignment_rdd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spark_assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,8 +195,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spark_assignments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rdd_basics" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.spark_assignment_rdd" />
       </list>
     </recent_temporary>
@@ -110,43 +235,211 @@
       <option name="presentableId" value="Default" />
       <updated>1585611876726</updated>
     </task>
+    <task id="LOCAL-00001" summary="ASSIGNMENT – 6 : Creation of  RDD and  operations on RDDs">
+      <created>1585698465037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585698465038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3542673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43961352" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ASSIGNMENT – 6 : Creation of  RDD and  operations on RDDs" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT – 6 : Creation of  RDD and  operations on RDDs" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Spark_Assignments_01_RDD_Basics/spark_assignment_rdd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Low_Priority/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Low_Priority/part-00002">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Low_Priority/part-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Low_Priority/part-00003">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/High_Priority/part-00002">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/High_Priority/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/High_Priority/part-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/High_Priority/part-00003">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_02_RDD_Files/01 spark_assignment_rdd_files_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_02_RDD_Files/02 spark_assignment_rdd_files_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_02_RDD_Files/03 spark_assignment_rdd_files_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Qty_LT_20/part-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Qty_LT_20/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_04_Text_Files/spark_assignment_rdd_textdata_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_01_RDD_Basics/spark_assignment_rdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="33" column="74" lean-forward="true" selection-start-line="33" selection-end-line="33" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/grade" />
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/sales.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="125" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grade/Grade_A/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grade/Grade_A/part-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grade/Grade_A/part-00002">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Outputs/Grade/Grade_A/part-00003">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_04_Text_Files/spark_assignment_rdd_textdata_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_05_JSON_Files/rdd_json_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#763#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/Inputs/grade.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_02_RDD_Files/spark_assignment_rdd_files_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_01_RDD_Basics/spark_assignment_rdd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_05_JSON_Files/rdd_json_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="46" column="119" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Assignments_06_RDD_Basics_2/rdd_basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="152" column="19" lean-forward="true" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

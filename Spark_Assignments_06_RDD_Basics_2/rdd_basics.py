@@ -10,6 +10,7 @@ outputPath = baseDir.joinpath("Outputs")
 rddSales = sc.textFile(str(inputFile))
 
 print("***** ASSIGNMENT – 6 : Creation of  RDD and  operations on RDDs *****")
+
 print("\n1. Considering the given 'sales' text file: ")
 print("i) RDD form is: <" + str(rddSales) + "> and its type is:", type(rddSales))
 print(rddSales.collect())
@@ -102,5 +103,54 @@ for par in rddSalesRePartitions.glom().collect():
     i += 1
 print("Re-partitioned data stored at location: ", pardataoutput)
 
+print("\n7. Considering the given 'grade' text file: ")
+inputFileGrade = baseDir.joinpath("Inputs", "grade.txt")
+rddGrade = sc.textFile(str(inputFileGrade))
+print("i) RDD: <" + str(rddGrade) + "> created with", str(rddGrade.getNumPartitions()), "partitions.")
+i = 0
+for par in rddGrade.glom().collect():
+    print("Partition_" + str(i), ": ", par)
+    i += 1
+
+print("\n8. Considering the given 'grade' text file: ")
+print("i) Separating data by grades and load into 3 different files: ")
+rddGroupGrade = rddGrade.map(lambda rows: rows.split(',')).groupBy(lambda g: g[1])
+gradedataoutput = outputPath.joinpath("Grades")
+for da in rddGroupGrade.collect():
+    gradedata = sc.parallelize(da[1])
+    if da[0] != 'grade' and not (Path.exists(gradedataoutput.joinpath('Grade_{0}'.format(da[0])))):
+        dirname = gradedataoutput.joinpath('Grade_{0}'.format(da[0]))
+        print("Grade:", da[0], "with data:", str(gradedata.collect()))
+        gradedata.saveAsTextFile(str(dirname))
+    elif da[0] != 'grade':
+        print("Grade:", da[0], "with data:", str(gradedata.collect()))
+    else:
+        pass
+print("Grades data stored at location:", gradedataoutput)
+
+print("ii) Re-partitioning with above file to 1 partition: ")
+rddGradeRePartition = rddGrade.repartition(1)
+print("RDD <" + str(rddGradeRePartition) +
+      "> wherein number of partitions reduced from " +
+      str(rddGrade.getNumPartitions()) + " to " + str(rddGradeRePartition.getNumPartitions()) + ".")
+
+'''
+rdd_grade = rddGrade.map(lambda rows: rows.split(',')).map(lambda g: g[1]).\
+    filter(lambda x: x if x != 'grade' else False).distinct()
+print(rdd_grade.collect())
+byGrades = []
+gradedataoutput = outputPath.joinpath("Grades")
+for rows in rddGrade.map(lambda rows: rows.split(',')).collect():
+    for grade in rdd_grade.collect():
+        if rows[1] == grade and not (Path.exists(gradedataoutput.joinpath('Grade_{0}'.format(grade)))):
+            dirname = gradedataoutput.joinpath('Grade_{0}'.format(grade))
+            sc.parallelize(rows).saveAsTextFile(str(dirname))
+        else:
+            pass
+'''
+
+#print(byGrades)
+#byGrades = sc.parallelize(byGrades)
+#print(byGrades.reduceByKey(lambda k, v: k + v).collect())
 
 

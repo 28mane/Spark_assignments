@@ -1,0 +1,68 @@
+C:\Users\dell\Anaconda3\python.exe F:/Spark/Spark_assignments/Spark_Assignments_06_RDD_Basics_2/rdd_basics.py
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+***** ASSIGNMENT – 6 : Creation of  RDD and  operations on RDDs *****
+
+1. Considering the given 'sales' text file: 
+i) RDD form is: <F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Inputs\sales.txt MapPartitionsRDD[1] at textFile at NativeMethodAccessorImpl.java:0> and its type is: <class 'pyspark.rdd.RDD'>
+['Priority,qty,sales', 'Low,6,261.54', 'High,44,10123.02', 'High,27,244.57', 'High,30,4965.75', 'Null,22,394.27', 'Null,21,146.69', 'High,12,93.54', 'High,22,905.08', 'High,21,2781.82', 'Low,44,228.41']
+ii) Data sorted by priority is as: 
+['High,44,10123.02', 'High,27,244.57', 'High,30,4965.75', 'High,12,93.54', 'High,22,905.08', 'High,21,2781.82', 'Low,6,261.54', 'Low,44,228.41', 'Null,22,394.27', 'Null,21,146.69', 'Priority,qty,sales']
+
+2. Considering the given 'sales' text file: 
+i) Placing Low and high priority data into 2 separate files: 
+Low priority data stores at location  : F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Outputs\Low_Priority
+High priority data stores at location : F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Outputs\High_Priority
+ii) Placing records with less than 20 as qty into another file: 
+Data: [['Low', '6', '261.54'], ['High', '12', '93.54']]
+Stored at location:  F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Outputs\Qty_LT_20
+
+3. Considering the given 'sales' text file: 
+i) Creating RDDs for priority & sales, qty & sales: 
+RDD for priority & sales is:  org.apache.spark.api.java.JavaPairRDD@c52e17b
+[('Priority', 'sales'), ('Low', '261.54'), ('High', '10123.02'), ('High', '244.57'), ('High', '4965.75'), ('Null', '394.27'), ('Null', '146.69'), ('High', '93.54'), ('High', '905.08'), ('High', '2781.82'), ('Low', '228.41')]
+RDD for qty & sales is:  org.apache.spark.api.java.JavaPairRDD@7c70ca70
+[('qty', 'sales'), ('6', '261.54'), ('44', '10123.02'), ('27', '244.57'), ('30', '4965.75'), ('22', '394.27'), ('21', '146.69'), ('12', '93.54'), ('22', '905.08'), ('21', '2781.82'), ('44', '228.41')]
+
+4. Considering the given 'sales' text file: 
+ii) Count of records in low and high priorities: 
+Record count of Low priority:  2
+Record count of High priority:  6
+
+5. Considering the given 'sales' text file: 
+i) Loading data into an RDD with 4 partitions:
+RDD <F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Inputs\sales.txt MapPartitionsRDD[24] at textFile at NativeMethodAccessorImpl.java:0> created with 4 partitions.
+ii) Displaying data along with partitions:
+PythonRDD[26] at RDD at PythonRDD.scala:53 -> ['Priority,qty,sales', 'Low,6,261.54', 'High,44,10123.02']
+PythonRDD[27] at RDD at PythonRDD.scala:53 -> ['High,27,244.57', 'High,30,4965.75', 'Null,22,394.27']
+PythonRDD[28] at RDD at PythonRDD.scala:53 -> ['Null,21,146.69', 'High,12,93.54', 'High,22,905.08']
+PythonRDD[29] at RDD at PythonRDD.scala:53 -> ['High,21,2781.82', 'Low,44,228.41']
+
+6. Considering the given 'sales' text file: 
+i) Re-partitioning data into 6 partitions:
+RDD <MapPartitionsRDD[34] at coalesce at NativeMethodAccessorImpl.java:0> created with 6 re-partitions.
+ii) Displaying data from all partitions and loading into another text file
+Partition_0 :  []
+Partition_1 :  ['Priority,qty,sales', 'Low,6,261.54', 'High,44,10123.02']
+Partition_2 :  ['High,21,2781.82', 'Low,44,228.41']
+Partition_3 :  []
+Partition_4 :  ['Null,21,146.69', 'High,12,93.54', 'High,22,905.08']
+Partition_5 :  ['High,27,244.57', 'High,30,4965.75', 'Null,22,394.27']
+Re-partitioned data stored at location:  F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Outputs\Six_Data_Partitions
+
+7. Considering the given 'grade' text file: 
+i) RDD: <F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Inputs\grade.txt MapPartitionsRDD[37] at textFile at NativeMethodAccessorImpl.java:0> created with 2 partitions.
+Partition_0 :  ['Priority,grade', 'Low,A', 'High,B']
+Partition_1 :  ['High,A', 'Null,K']
+
+8. Considering the given 'grade' text file: 
+i) Separating data by grades and load into 3 different files: 
+Grade: K with data: [['Null', 'K']]
+Grade: A with data: [['Low', 'A'], ['High', 'A']]
+Grade: B with data: [['High', 'B']]
+Grades data stored at location: F:\Spark\Spark_assignments\Spark_Assignments_06_RDD_Basics_2\Outputs\Grades
+ii) Re-partitioning with above file to 1 partition: 
+RDD <MapPartitionsRDD[52] at coalesce at NativeMethodAccessorImpl.java:0> wherein number of partitions reduced from 2 to 1.
+
+Process finished with exit code 0
